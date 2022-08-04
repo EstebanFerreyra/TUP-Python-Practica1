@@ -6,12 +6,20 @@ True si 2 personas tienen el mismo nombre pero distinta edad.
 Aclaración: Se puede utilizar and, or y not.
 """
 
+from errno import EADDRNOTAVAIL
+
+
 persona_01 = "Kevin"
 edad_01 = 24
 persona_02 = "Kevin"
 edad_02 = 41
 
 # COMPLETAR - INICIO
+
+if persona_01 == persona_02 and edad_01 != edad_02:
+    comparar_nombre_y_edad = True
+else:
+    comparar_nombre_y_edad = False
 
 # COMPLETAR - FIN
 
@@ -29,6 +37,10 @@ modelo_de_auto = 1998
 
 # COMPLETAR - INICIO
 
+if marca_del_auto != "Ford" and modelo_de_auto <= 2000:
+    comparar_marca_y_modelo = True
+else:
+    comparar_marca_y_modelo = False
 # COMPLETAR - FIN
 
 assert comparar_marca_y_modelo
@@ -46,6 +58,11 @@ superficie_de_campo_02 = 851212
 superficie_de_campo_03 = 8512
 
 # COMPLETAR - INICIO
+
+if superficie_de_campo_02 > superficie_de_campo_01 and superficie_de_campo_02 > superficie_de_campo_03:
+    comparar_superficie = True
+else:
+    comparar_superficie = False
 
 # COMPLETAR - FIN
 
@@ -66,6 +83,17 @@ manzanas = 300
 peras = 30
 
 # COMPLETAR - INICIO
+
+if bananas < naranjas / 2:
+    if naranjas / 2 < manzanas * 2:
+        if manzanas ** 2 <= peras ** 2:
+            comparar_frutas = True
+        else:
+            comparar_frutas = False
+    else:
+        comparar_frutas = False        
+else:
+    comparar_frutas = False
 
 # COMPLETAR - FIN
 
