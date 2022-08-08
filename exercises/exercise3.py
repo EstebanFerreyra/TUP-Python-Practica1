@@ -86,7 +86,7 @@ peras = 30
 
 if bananas < naranjas / 2:
     if naranjas / 2 < manzanas * 2:
-        if manzanas ** 2 <= peras ** 2:
+        if manzanas * 2 <= peras ** 2:
             comparar_frutas = True
         else:
             comparar_frutas = False
