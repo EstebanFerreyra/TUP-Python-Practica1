@@ -76,7 +76,7 @@ variable_05 = 100
 
 # COMPLETAR - INICIO
 
-
+resultado = variable_03 or variable_02 and variable_01 and variable_04 and variable_05
 
 # COMPLETAR - FIN
 
