@@ -87,6 +87,7 @@ lista = ["ho", 3.1416, 42, 81, 6, "la"]
 lista_nueva = []
 lista_nueva.append(lista[0])
 lista_nueva.append(lista[-1])
+# lista_nueva.append(lista[len(lista)-1])
 lista_primero_y_ultimo = lista_nueva
 
 # COMPLETAR - FIN
@@ -143,7 +144,8 @@ lista = ["ho", "la", 81, 6, 42, "como", "estas?"]
 lista_primeros_y_ultimos = []
 lista_primeros_y_ultimos = lista[0:2]
 listax = []
-listax = lista[5:7]
+listax = lista[5:len(lista)]
+# listax = lista[5:7]
 lista_primeros_y_ultimos.extend(listax)
 
 # COMPLETAR - FIN
