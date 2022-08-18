@@ -73,11 +73,12 @@ numero_incalculable = 2 ** 54 - 1
 
 # COMPLETAR - INICIO
 
+es_divisible_por_siete = not numero_incalculable %7
 
-if(numero_incalculable % 7 == 0):
-    es_divisible_por_siete = True
-else:
-    es_divisible_por_siete = False
+#if(numero_incalculable % 7 == 0):
+#   es_divisible_por_siete = True
+#else:
+#    es_divisible_por_siete = False
     
 # COMPLETAR - FIN
 

@@ -59,10 +59,12 @@ superficie_de_campo_03 = 8512
 
 # COMPLETAR - INICIO
 
-if superficie_de_campo_02 > superficie_de_campo_01 and superficie_de_campo_02 > superficie_de_campo_03:
+comparar_superficie = superficie_de_campo_02 > superficie_de_campo_01 and superficie_de_campo_02 > superficie_de_campo_03
+
+"""if superficie_de_campo_02 > superficie_de_campo_01 and superficie_de_campo_02 > superficie_de_campo_03:
     comparar_superficie = True
 else:
-    comparar_superficie = False
+    comparar_superficie = False"""
 
 # COMPLETAR - FIN
 
@@ -84,7 +86,9 @@ peras = 30
 
 # COMPLETAR - INICIO
 
-if bananas < naranjas / 2:
+comparar_frutas = peras**2 > manzanas*2 > naranjas/2 > bananas
+
+"""if bananas < naranjas / 2:
     if naranjas / 2 < manzanas * 2:
         if manzanas * 2 <= peras ** 2:
             comparar_frutas = True
@@ -93,7 +97,7 @@ if bananas < naranjas / 2:
     else:
         comparar_frutas = False        
 else:
-    comparar_frutas = False
+    comparar_frutas = False"""
 
 # COMPLETAR - FIN
 

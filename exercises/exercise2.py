@@ -11,10 +11,12 @@ riego_activado = True
 
 # COMPLETAR - INICIO
 
-if esta_lloviendo == True or riego_activado == True:
+piso_mojado = esta_lloviendo or riego_activado
+
+"""if esta_lloviendo == True or riego_activado == True:
     piso_mojado = True
 else:
-    piso_mojado = False
+    piso_mojado = False"""
 
 # COMPLETAR - FIN
 
@@ -32,10 +34,12 @@ area_cuadrado = pow(lado_cuadrado, 2)
 
 # COMPLETAR - INICIO
 
-if not area_cuadrado < 5:
+area_mayor_a_cinco = not area_cuadrado < lado_cuadrado
+
+"""if not area_cuadrado < 5:
     area_mayor_a_cinco = True
 else:
-    area_mayor_a_cinco = False
+    area_mayor_a_cinco = False"""
 
 # COMPLETAR - FIN
 
@@ -52,10 +56,12 @@ numero_2 = 50
 
 # COMPLETAR - INICIO
 
-if numero_1 % 7 == 0 and numero_2 % 7 != 0:
+resultado = not numero_1 % 7 and numero_2 % 7 
+
+"""if numero_1 % 7 == 0 and numero_2 % 7 != 0:
     resultado = True
 else:
-    resultado = False
+    resultado = False"""
 
 # COMPLETAR - FIN
 

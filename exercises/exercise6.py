@@ -196,11 +196,13 @@ lista = [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1.0, 1, 0, 1, 0, 1]
 
 # COMPLETAR - INICIO
 
-if elemento in lista:
+variable_booleana = elemento in lista
+
+"""if elemento in lista:
     variable_booleana = True
 else:
     variable_booleana = False
-
+"""
 # COMPLETAR - FIN
 
 assert variable_booleana
@@ -216,10 +218,12 @@ lista_02 = [1, 3, 2, 4, 5, 6, 7]
 
 # COMPLETAR - INICIO
 
-if lista_01 == lista_02:
+son_iguales = lista_01 == lista_02
+
+"""if lista_01 == lista_02:
     son_iguales = True
 else:
-    son_iguales = False
+    son_iguales = False"""
 
 # COMPLETAR - FIN
 
@@ -237,10 +241,12 @@ notas = [False, False, False, False, False, False, False, False, False]
 
 # COMPLETAR - INICIO
 
-if any(notas) == False:
+no_tiene_examenes_aprobados = not any(notas)
+
+"""if any(notas) == False:
     no_tiene_examenes_aprobados = True
 else:
-    no_tiene_examenes_aprobados = False
+    no_tiene_examenes_aprobados = False"""
 
 # COMPLETAR - FIN
 
@@ -258,10 +264,12 @@ notas = [True, True, False, True, True, True, True, True, True, True, True, True
 
 # COMPLETAR - INICIO
 
-if all(notas) == True:
+tiene_todo_aprobado = all(notas)
+
+"""if all(notas) == True:
     tiene_todo_aprobado = True
 else: 
-    tiene_todo_aprobado = False
+    tiene_todo_aprobado = Fals"""
 
 # COMPLETAR - FIN
 
